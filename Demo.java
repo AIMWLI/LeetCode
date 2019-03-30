@@ -1,3 +1,4 @@
+import java.util.HashSet;
 class Solution {
   public static int[] intersection(int[] nums1, int[] nums2) {
     HashSet<Integer> set1 = new HashSet<Integer>();
@@ -10,6 +11,9 @@ class Solution {
     int [] output = new int[set1.size()];
     int idx = 0;
     for (int s : set1) output[idx++] = s;
+    for (int i : output) {
+      System.out.println(i);
+  }
     return output;
   }
   public static void main(String[] args) {
