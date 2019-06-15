@@ -4,7 +4,7 @@ class Solution {
     HashSet<Integer> set1 = new HashSet<Integer>();
     for (Integer n : nums1) set1.add(n);
     HashSet<Integer> set2 = new HashSet<Integer>();
-    for (Integer n : nums2) set2.add(n);
+    for (Integer n : nums2) set2.add(n);~
 
     set1.retainAll(set2);
 
