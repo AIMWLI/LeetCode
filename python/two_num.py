@@ -6,6 +6,7 @@
 因为 nums[0] + nums[1] = 2 + 7 = 9
 所以返回 [0, 1]
 '''
+
 class solution:
 
     def two_num(self, nums, target):
@@ -16,7 +17,6 @@ class solution:
                 return [dict[another_num], index]
             dict[num] = index
         return None
-
 
 nums = [2, 3, 4, 7, 11, 15]
 target = 9
