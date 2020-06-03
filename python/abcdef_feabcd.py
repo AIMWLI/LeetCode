@@ -16,4 +16,3 @@ class abcdef_feabcd:
 
     result = reverse_words(str, index)
     print(result) #efabcd
-
